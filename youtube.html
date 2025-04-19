@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
+  <head>
+    <title>YouTube.com Clone</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="./icons/hamburger-menu.svg" alt="" />
+        <img class="youtube-logo" src="./icons/youtube-logo.svg" alt="" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="./icons/search.svg" alt="" />
+          <div class="tooltip">Search</div></button
+        ><button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="./icons/voice-search-icon.svg"
+            alt=""
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <button class="create-button">
+          <span class="plus-icon">+</span>
+          <span class="text">Create</span>
+        </button>
+
+        <div class="notifications-icon-container">
+          <img
+            class="notifications-icon"
+            src="./icons/notifications.svg"
+            alt=""
+          />
+          <div class="tooltip">Notifications</div>
+
+          <div class="notifications-count">3</div>
+        </div>
+        <img class="current-user-picture" src="./icons/user.png" alt="" />
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="./icons/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./icons/explore.svg" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./icons/icons8-youtube-shorts-384.png" />
+        <div>Shorts</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./icons/subscriptions.svg" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./icons/originals.svg" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./icons/youtube-music.svg" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="./icons/library.svg" />
+        <div>Library</div>
+      </div>
+    </div>
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/SEgNAr4kPEE?si=juAz6NxE3YHy9lP6">
+            <img class="thumbnail" src="thumbnails/t1.jpg" />
+            <div class="video-time">32:38</div></a
+          >
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-pictures/p1.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Mahindra XEV 9e - Fast & Feature Loaded Car Has Good Dynamics |
+              Faisal Khan
+            </p>
+            <p class="video-author">Faisal Khan</p>
+            <p class="video-stats">893K views &#183; 4 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/-_qGCzGR-74?si=7PuN_60mrffDmA4u">
+            <img class="thumbnail" src="thumbnails/t2.jpg" />
+            <div class="video-time">21:24</div></a
+          >
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-pictures/p2.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              FIRST DRIVE! New Land Rover Defender Review 4K | Top Gear
+            </p>
+            <p class="video-author">Top Gear</p>
+            <p class="video-stats">2.4M views &#183; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/aWSCm3YN_sQ?si=oAKFAfjm-5uci5J7">
+            <img class="thumbnail" src="thumbnails/t3.jpg" />
+            <div class="video-time">26:01</div></a
+          >
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-pictures/p3.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              2024 Rolls-Royce Spectre Review // Why It's Worth $500,000
+            </p>
+            <p class="video-author">Throttle House</p>
+            <p class="video-stats">2.4M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/2vWh2kaeZkI?si=nDf0M-5h_W_PjlCS">
+            <img class="thumbnail" src="thumbnails/t4.jpg" />
+            <div class="video-time">21:49</div></a
+          >
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-pictures/p4.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">New AMG GT review: Better than a 911?!</p>
+            <p class="video-author">carwow</p>
+            <p class="video-stats">2.7M views &#183; 10 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/X3anglskbiY?si=WGry00TjKRdkbMnN">
+            <img class="thumbnail" src="thumbnails/t5.jpg" />
+            <div class="video-time">22:13</div></a
+          >
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-pictures/p5.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              2024 Royal Enfield Himalayan 450 First Ride Review | Sagar
+              Sheldekar Official
+            </p>
+            <p class="video-author">Sagar Sheldekar Official</p>
+            <p class="video-stats">246K views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/unZGThdm5Ds?si=19lZtDECt2u_KPq4">
+            <img class="thumbnail" src="thumbnails/t6.jpg" />
+            <div class="video-time">9:50</div></a
+          >
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-pictures/p6.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Jawa 42 FJ review - A big step forward | First Ride | Autocar
+              India
+            </p>
+            <p class="video-author">Autocar India</p>
+            <p class="video-stats">151K views &#183; 3 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/R5Tch9TZwsw?si=FCtkDez8ojLgzQuc">
+            <img class="thumbnail" src="thumbnails/t7.jpg" />
+            <div class="video-time">9:58</div></a
+          >
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-pictures/p7.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              This motorcycle can do it all: Triumph Scrambler 400X | PowerDrift
+              | 4K
+            </p>
+            <p class="video-author">PowerDrift</p>
+            <p class="video-stats">276K views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/PsJWIOXiVQI?si=mKDA8KH66MCocqAb">
+            <img class="thumbnail" src="thumbnails/t8.jpg" />
+            <div class="video-time">7:34</div></a
+          >
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-pictures/p8.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              India’s Most Powerful Single-Cylinder! BSA Goldstar 650 Review |
+              MotorBeam
+            </p>
+            <p class="video-author">MotorBeam</p>
+            <p class="video-stats">8K views &#183; 5 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/6ZfuNTqbHE8?si=-UJuv1EcleP4sLOE">
+            <img class="thumbnail" src="thumbnails/t9.jpg" />
+            <div class="video-time">2:24</div></a
+          >
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-pictures/p9.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Marvel Studios' Avengers: Infinity War Official Trailer
+            </p>
+            <p class="video-author">Marvel Entertainment</p>
+            <p class="video-stats">266M views &#183; 7 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/_Z3QKkl1WyM?si=qwQ-1_4Qa2eY_Z51">
+            <img class="thumbnail" src="thumbnails/t10.jpg" />
+            <div class="video-time">2:10</div></a
+          >
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-pictures/p10.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Marvel Studios’ Black Panther: Wakanda Forever | Official Trailer
+            </p>
+            <p class="video-author">Marvel Entertainment</p>
+            <p class="video-stats">44M views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/mqqft2x_Aa4?si=AsUIfWCWPDi-G0Qs">
+            <img class="thumbnail" src="thumbnails/t11.jpg" />
+            <div class="video-time">2:38</div></a
+          >
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-pictures/p11.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">THE BATMAN – Main Trailer</p>
+            <p class="video-author">Warner Bros.</p>
+            <p class="video-stats">64M views &#183; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/ui37YKQ9AC4?si=HAC7u3uGrNsmy0dp">
+            <img class="thumbnail" src="thumbnails/t12.jpg" />
+            <div class="video-time">2:33</div></a
+          >
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-pictures/p12.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Zack Snyder's Justice League - Official Trailer - Warner Bros. UK
+            </p>
+            <p class="video-author">Warner Bros. UK & Ireland</p>
+            <p class="video-stats">3.3M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/KyfUysrNaco?si=YP4MGkq8jvST_i9N">
+            <img class="thumbnail" src="thumbnails/t13.jpg" />
+            <div class="video-time">3:16:19</div></a
+          >
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-pictures/p13.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              44 Harsh Truths About Human Nature - Naval Ravikant (4K)
+            </p>
+            <p class="video-author">Chris Williamson</p>
+            <p class="video-stats">1.4M views &#183; 2 weeks ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/5Eqb_-j3FDA?si=Z7ONiMlRFuY26uad">
+            <img class="thumbnail" src="thumbnails/t14.jpg" />
+            <div class="video-time">4:37</div></a
+          >
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-pictures/p14.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Coke Studio | Season 14 | Pasoori | Ali Sethi x Shae Gill
+            </p>
+            <p class="video-author">Coke Studio Pakistan</p>
+            <p class="video-stats">844M views &#183; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/nDsIy6kRhms?si=OrI-h7COK5nfiOmp">
+            <img class="thumbnail" src="thumbnails/t15.jpg" />
+            <div class="video-time">3:32</div></a
+          >
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-pictures/p15.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Lehra Do - Full Video | 83 | Ranveer Singh, Kabir Khan | Pritam,
+              Arijit Singh, Kausar Munir
+            </p>
+            <p class="video-author">Zee Music Company</p>
+            <p class="video-stats">37M views &#183; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/Mho0M1Ns0Rw?si=Dw1eGbB72b5yU5Li">
+            <img class="thumbnail" src="thumbnails/t16.jpg" />
+            <div class="video-time">1:48:09</div></a
+          >
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-pictures/p16.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              How to Build a PC - Full Detailed Build Guide (2025)
+            </p>
+            <p class="video-author">TechSource</p>
+            <p class="video-stats">2.1M views &#183; 10 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/yTMYtcQLLaw?si=60_N2Bye1ZT_Ub1q">
+            <img class="thumbnail" src="thumbnails/t17.jpg" />
+            <div class="video-time">2:06:21</div></a
+          >
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-pictures/p17.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              People with The Prime Minister Shri Narendra Modi x Nikhil Kamath
+              | Episode 6 | By WTF
+            </p>
+            <p class="video-author">Nikhil Kamath</p>
+            <p class="video-stats">4.6M views &#183; 3 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/Pk5FwsZB7L0?si=zZAAfeJyW0ETRTnS">
+            <img class="thumbnail" src="thumbnails/t18.jpg" />
+            <div class="video-time">20:35</div></a
+          >
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-pictures/p18.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">My Google Pixel 9 Pro XL Review</p>
+            <p class="video-author">Dave2D</p>
+            <p class="video-stats">699K views &#183; 7 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/Uwmp16aSgdk?si=peJyPbRmiWpHLCYi">
+            <img class="thumbnail" src="thumbnails/t19.jpg" />
+            <div class="video-time">8:16</div></a
+          >
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-pictures/p19.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">M4 Macbook Air Review: Too Easy!</p>
+            <p class="video-author">Faisal Khan</p>
+            <p class="video-stats">4M views &#183; 1 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/AEZ7dQcfnCY?si=h7t314ili-WJ3FyY">
+            <img class="thumbnail" src="thumbnails/t20.jpg" />
+            <div class="video-time">25:13</div></a
+          >
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./channel-pictures/p20.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Nothing Phone 3a Full Review - Ideal Mid Ranger for most?
+            </p>
+            <p class="video-author">Geekyranjit</p>
+            <p class="video-stats">215K views &#183; 1 months ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
